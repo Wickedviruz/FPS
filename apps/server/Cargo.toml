@@ -1,0 +1,11 @@
+[package]
+name = "server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { workspace = true }
+shared = { path = "../../crates/shared" }
+core = { path = "../../crates/core" }
+physics = { path = "../../crates/physics" }
+net = { path = "../../crates/net" }

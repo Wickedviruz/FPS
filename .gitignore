@@ -1,0 +1,22 @@
+# Byggartefakter
+/target/
+**/*.rs.bk
+
+# Cargo-lock för bibliotek (om du inte vill versionera)
+# Cargo.lock
+
+# IDE-filer
+.vscode/
+.idea/
+*.iml
+
+# OS-specifika filer
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Outputs, cache
+**/*.swp
+**/*.swo
